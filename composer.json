@@ -1,0 +1,14 @@
+{
+    "name": "poulpe/poulpe",
+    "description": "Check environment requirements",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "symfony/process": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Poulpe\\": "src"
+        }
+    }
+}
